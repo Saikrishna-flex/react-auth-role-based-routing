@@ -6,7 +6,7 @@ import { ToastContainer } from 'react-toastify'
 import { AuthProvider } from './context/Auth/AuthContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <Router>
+  <Router basename="/react-auth-role-based-routing">
     <AuthProvider>
       <App />
       <ToastContainer/>
